@@ -1,0 +1,181 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+body{
+  box-sizing: border-box;
+  height:auto;
+}
+
+/*========*/
+/*==== Start First Section ======/*
+/*========*/
+.section1 {
+	background-image: linear-gradient(rgba(237, 247, 255, 0.6),rgba(237, 247, 255, 0.6)),url("img/2.jpg");
+	background-position: center center;
+	height:76vh;
+	position: fixed;
+	background-position: scroll;
+	/* background-attachment: fixed; */
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	/* background-position: left; */
+  border: 0;
+}
+.content{
+	width: 500px;
+	height: 150px;
+	text-align: center;
+	line-height: 1.8;
+	position: absolute;
+	margin-top: 200px;
+	margin-left: 272px;
+}
+.content p{
+  font-size: 30px;
+}
+.menu-bar{
+float: right;
+}
+.menu-bar ul{
+  list-style-type: none;
+
+
+}
+.menu-bar ul li {
+	/* float: right; */
+	display: inline-block;
+	margin-left: 10px;
+	margin-top: 25PX;
+	font-size: 18px;
+	text-transform: uppercase;
+  color: #000;
+  font-weight: 600;
+}
+/*========*/
+/*==== End First Section ======/*
+/*========*/
+
+/*========*/
+/*==== Start Reausuable Section ======/*
+/*========*/
+.row{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+h2 {
+	font-size: 40px;
+
+}
+section{
+  padding: 30px;
+  overflow: hidden;
+}
+
+/*========*/
+/*==== End Reausuable Section ======/*
+/*========*/
+
+/*========*/
+/*==== All start header Tag ======/*
+/*========*/
+h1 {
+	font-size: 70px;
+}
+h3 {
+	font-size: 30px;
+	color: #102544;
+}
+/*========*/
+/*====End All header Tag ======/*
+/*========*/
+
+/*========*/
+/*==== All start Paragraph Tag ======/*
+/*========*/
+p {
+	font-size: 20px;
+	/* text-align: center; */
+	width: 400px;
+	margin-left: 323px;
+	margin-top: 20px;
+}
+/*========*/
+/*====End All Paragraph Tag ======/*
+/*========*/
+
+/*========*/
+/*==== Start Payment Section ======/*
+/*========*/
+.payment-section{
+  	background-image: linear-gradient(rgba(237, 247, 255, 0.6),rgba(237, 247, 255, 0.6)),url("img/bg-visa.jpg");
+  	background-position: center center;
+  	height: 65vh;
+  	position: fixed;
+  	background-position: inherit;
+  	background-size: cover;
+  	background-repeat: no-repeat;
+  	position: relative;
+    text-align: center;
+    padding-bottom: 60px;
+  }
+
+.content-important {
+  position: absolute;
+	text-align: center;
+}
+.visa-pic {
+	width: 700px;
+	height: 300px;
+  margin-top: 20px;
+  border-radius: 5px;
+
+}
+.visa-pic:hover {
+
+}
+/*========*/
+/*==== End Payment Section ======/*
+/*========*/
+
+/*========*/
+/*==== Start Account Section ======/*
+/*========*/
+.account-section{
+  background: linear-gradient(rgba(0, 27, 99, 0.6),rgba(0, 27, 99, 0.6)),url(img/bg-network.jpg);
+  text-align: center;
+  height: 65vh;
+  background-position: inherit;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.account-form{
+  margin-top: 20px;
+}
+.inpt{
+  border-radius: 5px;
+  width: 500px;
+  padding: 5px;
+  margin: 10px 10px;
+  font-size: 18px;
+}
+.btn{
+  font-size: 20px;
+  background:  #aed6f1;
+  border-radius: 5px;
+  width: 520px;
+  padding: 10px;
+  margin: 10px 10px;
+}
+.btn:hover{
+  background: yellow;
+  color:
+
+}
+/*========*/
+/*==== End Account Section ======/*
+/*========*/
